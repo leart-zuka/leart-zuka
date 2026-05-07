@@ -22,7 +22,7 @@ Trying to become better at programming so most of my repos are just for personal
 - 🔭 Always just reading up on some documentation and publishing it to my personal projects (so I don't have to abide to any code styling rules)
 - 💬 Ask me about anything related to ricing and python, as that's what I mostly do.
 
-Check out my CV [here](./cv/cv-llt.pdf)!
+Check out my CV [here](./cv/cv-llt.pdf) or my website [here](https://lzuka.tech)!
 
 <br/>
 
