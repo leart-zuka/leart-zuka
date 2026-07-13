@@ -50,7 +50,7 @@
 \fi
 
 % Change the page margins if you want
-% \geometry{left=1cm,right=1cm,top=1.5cm,bottom=1.5cm}
+\geometry{top=1.3cm,bottom=1.3cm}
 
 % Change the colours if you want
 % \definecolor{SwishLineColour}{HTML}{00FFFF}
@@ -68,36 +68,26 @@
 
 
 \leftheader{%
-  {\LARGE\bfseries\sffamily Leart Zuka, M.Sc.}
-
-  \makefield{\faEnvelope[regular]}{\href{mailto:leart.zuka@web.de}{\texttt{leart.zuka@web.de}}}
-  % fontawesome5 doesn't have the X icon so we use
-  % the simpleicons package here instead; but some 
-  % font size adjustment might be needed
-  \makefield{\faLinkedin}
+  {\LARGE\bfseries\sffamily Leart Zuka}\\
+  \newline
+  \makefield{\aicon{\faEnvelope[regular]}{Email: }}{\href{mailto:leart.zuka@web.de}{\texttt{leart.zuka@web.de}}}
+  \makefield{\aicon{\faPhone}{Phone: }}{\texttt{+49 174 4914284}}
+  \makefield{\aicon{\faLinkedin}{LinkedIn: }}
   {\href{https://www.linkedin.com/in/leart-zuka-741092213/}{\texttt{LinkedIn}}}
-\makefield{\faGithub}
+\makefield{\aicon{\faGithub}{GitHub: }}
   {\href{https://github.com/leart-zuka/}{\texttt{Github}}}
-\makefield{\faGlobe}
+\makefield{\aicon{\faGlobe}{Website: }}
   {\href{https://lzuka.tech}{\texttt{Website}}}
-
-
-  %% Next line
-  % \makefield{\faGlobe}{\url{http://example.example.org/}}
-  % You can use a tabular here if you want to line up the fields.
 }
-
 \rightheader{~}
-\begin{fullonly}
-\photo[r]{photo}
-\photoscale{0.20}
-\end{fullonly}
-
-\title{Curriculum Vitae}
+%\begin{fullonly}
+%\photo[r]{photo}
+%\photoscale{0.20}
+%\end{fullonly}\title{Curriculum Vitae}
 
 \begin{document}
 \makeheaders[c]
-
+\makerubric{summary}
 \makerubric{employment}
 \makerubric{education}
 

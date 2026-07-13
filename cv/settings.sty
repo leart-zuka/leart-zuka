@@ -3,9 +3,8 @@
 % CV which I (lamely attempted) to clean up, so that
 % it's less of an eyesore and easier for others to use.
 %
-% LianTze Lim (liantze@gmail.com)
-% 23 Oct, 2022
-% 24 Aug, 2024 -- added simpleicons to provide X-twitter icon
+\RequirePackage{accsupp}
+\newcommand{\aicon}[2]{\BeginAccSupp{ActualText=#2}#1\EndAccSupp{}}
 
 \RequirePackage{silence}
 \WarningsOff[longtable]
@@ -78,11 +77,10 @@
 \headerscale{1}
 %\setlength{\headerspace}{6pt}
 \rubricfont{\Large\bfseries\sffamily}
-\setlength{\rubricspace}{2pt}
-%\setlength{\rubricafterspace}{-9pt}
-\setlength{\rubricafterspace}{-3pt}
-\setlength{\subrubricspace}{3pt}
-\setlength{\subrubricbeforespace}{4pt}
+\setlength{\rubricspace}{1pt}
+\setlength{\rubricafterspace}{-6pt}
+\setlength{\subrubricbeforespace}{2pt}
+\setlength{\subrubricspace}{2pt}
 \def\@@rubrichead#1{%
 	\begin{tikzpicture}[baseline]%\
 		\shade[left color=SwishLineColour!60!white, right color=white] rectangle (\@almosttextwidth,2.5pt);
